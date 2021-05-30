@@ -17,17 +17,17 @@ Add new Product:
 URL - /api/products</br>
 Verb - POST
 
-Update Product:</br></br>
+Update Product:
 
 URL - /api/products</br>
-Verb - PUT</br></br>
+Verb - PUT
 
-Delete Product:</br></br>
+Delete Product:
 
 URL - /api/products/{id}</br>
-Verb - DELETE</br></br>
+Verb - DELETE
 
-Select All Products:</br></br></br>
+Select All Products:
 
 URL - /api/products/getall</br>
-Verb - GET</br></br>
+Verb - GET
