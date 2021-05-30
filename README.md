@@ -12,10 +12,10 @@ To run the code on your local machine, follow the below steps.</br>
 
 The URLs for the APIs are as follows:</br></br>
 
-Add new Product:</br></br>
+Add new Product:
 
 URL - /api/products</br>
-Verb - POST</br></br>
+Verb - POST
 
 Update Product:</br></br>
 
