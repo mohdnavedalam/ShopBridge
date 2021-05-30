@@ -15,19 +15,19 @@ The URLs for the APIs are as follows:</br></br>
 Add new Product:</br></br>
 
 URL - /api/products</br>
-Verb - POST</br>
+Verb - POST</br></br>
 
-Update Product:
+Update Product:</br></br>
 
-URL - /api/products
-Verb - PUT
+URL - /api/products</br>
+Verb - PUT</br></br>
 
-Delete Product:
+Delete Product:</br></br>
 
-URL - /api/products/{id}
-Verb - DELETE
+URL - /api/products/{id}</br>
+Verb - DELETE</br></br>
 
-Select All Products:
+Select All Products:</br></br></br>
 
-URL - /api/products/getall
-Verb - GET
+URL - /api/products/getall</br>
+Verb - GET</br></br>
