@@ -20,12 +20,14 @@ namespace ShopBridge.Controllers
             _productService = productService;
         }
 
+        // Get All Products
         [HttpGet("GetAll")]
         public async Task<IActionResult> Get()
         {
             return Ok(await _productService.GetAllProducts());
         }
 
+        // Update Product
         [HttpPut]
         public async Task<IActionResult> UpdateProduct(Product updatedProduct)
         {
@@ -35,12 +37,14 @@ namespace ShopBridge.Controllers
             return Ok(serviceResponse);
         }
 
+        // Add Product
         [HttpPost]
         public async Task<IActionResult> AddProduct(Product newProduct)
         {
             return Ok(await _productService.AddProduct(newProduct));
         }
 
+        // Delete Product
         [HttpDelete("{id}")]
         public async Task<IActionResult> DeleteProduct(int id)
         {

@@ -5,6 +5,7 @@ using System.Threading.Tasks;
 
 namespace ShopBridge.Models
 {
+    // To store the responses
     public class ServiceResponse<T>
     {
         public T Data { get; set; }

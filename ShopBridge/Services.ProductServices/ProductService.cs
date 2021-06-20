@@ -17,6 +17,7 @@ namespace ShopBridge.Services.ProductServices
             _appDbContext = appDbContext;
         }
 
+        // Add Product
         public async Task<ServiceResponse<List<Product>>> AddProduct(Product newProduct)
         {
             ServiceResponse<List<Product>> serviceResponse = new ServiceResponse<List<Product>>();
@@ -27,6 +28,7 @@ namespace ShopBridge.Services.ProductServices
             return serviceResponse;
         }
 
+        // Delete Product
         public async Task<ServiceResponse<List<Product>>> DeleteProduct(int id)
         {
             ServiceResponse<List<Product>> serviceResponse = new ServiceResponse<List<Product>>();
@@ -46,6 +48,7 @@ namespace ShopBridge.Services.ProductServices
             return serviceResponse;
         }
 
+        // Get All Products
         public async Task<ServiceResponse<List<Product>>> GetAllProducts()
         {
             ServiceResponse<List<Product>> serviceResponse = new ServiceResponse<List<Product>>();
@@ -54,6 +57,7 @@ namespace ShopBridge.Services.ProductServices
             return serviceResponse;
         }
 
+        // Update Product
         public async Task<ServiceResponse<Product>> UpdateProduct(Product updatedProduct)
         {
             ServiceResponse<Product> serviceResponse = new ServiceResponse<Product>();
